@@ -27,11 +27,11 @@ def sing(Hz = [G, G, Fsharp, Fsharp, lowB, D, lowB, lowB, G, G, Fsharp, Fsharp],
         brick.sound.beep(Hz[f], 0.5*d[f])
         wait(125)
 sing()
-#while True:
-    #if sensor1.distance() < 1000:
-        #brick.sound.beep()
-        #for a in range(0,4):
-            #motorB.run_target(500,360)
-            #motorB.run_target(500,0)
+while True:
+    if sensor1.distance() < 1000:
+        brick.sound.beep()
+        for a in range(0,4):
+            motorB.run_target(500,360)
+            motorB.run_target(500,0)
 
-       # break
+        break
