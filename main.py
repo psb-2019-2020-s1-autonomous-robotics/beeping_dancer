@@ -9,24 +9,30 @@ from pybricks.parameters import (Port, Stop, Direction, Button, Color,
 from pybricks.tools import print, wait, StopWatch
 from pybricks.robotics import DriveBase
  
-# Write your program here
-motorB = Motor(Port.B)
+
+#motorB = Motor(Port.B)
 sensor1 = UltrasonicSensor(Port.S1)
 A = 440.000
 G = 381.995
 Fsharp = 369.994
+E = 329.628
 D = 293.665
 C = 261.626
 lowB = 246.942
 
 #Hz = [261.626, 261.626, 391.995, 391.995, 440.000, 440.000, 391.995], d = [500, 500, 500, 500, 500, 500, 1000]
 
-def sing(Hz = [G, G, Fsharp, Fsharp, lowB, D, lowB, lowB, G, G, Fsharp, Fsharp], d = [500, 500, 500, 500, 500, 250, 750, 500, 250, 750, 500, 500, 500]):
- 
+def sing(Hz = [G, G, Fsharp, Fsharp, lowB, D, lowB, lowB, G, G, Fsharp, Fsharp, lowB, 1, G, G, Fsharp, Fsharp, lowB, D, lowB, D, E, C, D, lowB, 1], d = [1, 1, 1, 1, 1, 0.5, 1.5, 1, 0.5, 1.5, 1, 1, 1, 3, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 3]):
+    '''Sings the song entered. Defalt is Spooky Scary Skeletons'''
     for f in range(0,len(Hz)):
-        brick.sound.beep(Hz[f], 0.5*d[f])
+        if Hz[f] == 1:
+            wait(250*d[f])
+        else:
+            brick.sound.beep(Hz[f], 250*d[f])
         wait(125)
+
 sing()
+
 while True:
     if sensor1.distance() < 1000:
         brick.sound.beep()
