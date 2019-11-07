@@ -23,7 +23,7 @@ lowB = 246.942
 #Hz = [261.626, 261.626, 391.995, 391.995, 440.000, 440.000, 391.995], d = [500, 500, 500, 500, 500, 500, 1000]
 
 def sing(Hz = [G, G, Fsharp, Fsharp, lowB, D, lowB, lowB, G, G, Fsharp, Fsharp, lowB, 1, G, G, Fsharp, Fsharp, lowB, D, lowB, D, E, C, D, lowB, 1], d = [1, 1, 1, 1, 1, 0.5, 1.5, 1, 0.5, 1.5, 1, 1, 1, 3, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 3]):
-    '''Sings the song entered. Defalt is Spooky Scary Skeletons'''
+    '''Sings the song entered. Default is Spooky Scary Skeletons'''
     for f in range(0,len(Hz)):
         if Hz[f] == 1:
             wait(250*d[f])
