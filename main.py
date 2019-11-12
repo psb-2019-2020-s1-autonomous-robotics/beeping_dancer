@@ -30,7 +30,7 @@ def sing(Hz = [G, G, Fsharp, Fsharp, lowB, D, lowB, lowB, G, G, Fsharp, Fsharp, 
         else:
             brick.sound.beep(Hz[f], 250*d[f])
         wait(125)
-
+# WOO HOO!
 sing()
 
 while True:
