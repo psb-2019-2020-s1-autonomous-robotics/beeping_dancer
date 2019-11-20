@@ -1,6 +1,8 @@
+#https://docs.python.org/3.7/library/threading.html#threading.Thread.start
+#https://pymotw.com/3/threading/
+
 import logging
 import threading
-import time
 from pybricks import ev3brick as brick
 from pybricks.ev3devices import (Motor, TouchSensor, ColorSensor,
                                  InfraredSensor, UltrasonicSensor, GyroSensor)
