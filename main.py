@@ -34,7 +34,7 @@ def sing(Hz = [G, G, Fsharp, Fsharp, lowB, D, lowB, lowB, G, G, Fsharp, Fsharp, 
 
 
 while True:
-    if sensor1.distance() < 1000:
+    if sensor1.distance() < 500:
         sing()
         for a in range(0,4):
             motorB.run_target(500,360)
