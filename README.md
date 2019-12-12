@@ -1,9 +1,8 @@
 # beeping_dancer
-[Our project](https://docs.google.com/document/d/1tr92i46cixHyOB9DI_k7jKac8ZrGuXn2V3lA_N0On08/edit?usp=sharing) first beeps "Spooky Scary Skeletons" then dances by using gears connected to a motor that rotate the head and limbs. 
+[Our project](https://docs.google.com/document/d/1tr92i46cixHyOB9DI_k7jKac8ZrGuXn2V3lA_N0On08/edit?usp=sharing) first beeps "Spooky Scary Skeletons" then dances by using gears connected to a motor that rotate the head and limbs. To run, put your hand in front of the sensor. The ultrasonic distance sensor causes the program to dance and beep “Spooky Scary Skeletons” when it senses a nearby object. The frame is a large piece of cardboard with the cardboard limbs and head stuck on the front. On the other side is a system of gears connected to the limbs and the motor that causes the limbs to swivel back and forth. 
 
-Links we used:
-
-
+ 
+This robot was made by Vivi Wickersham and Maya Smith in their Autonomous Robotics class using the following links:
 https://en.wikipedia.org/wiki/Piano_key_frequencies
 
 https://www.musicnotes.com/images/productimages/large/mtd/MN0168952.gif
