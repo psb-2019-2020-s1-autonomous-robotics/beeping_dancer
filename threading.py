@@ -1,12 +1,10 @@
 #!/usr/bin/env pybricks-micropython
  
 '''
-The frame is a large piece of cardboard with the cardboard limbs and
-head stuck on the front. On the other side is a system of gears connected 
-to the limbs and the motor that causes the limbs to swivel back and forth. 
-There is also an ultrasonic distance sensor, which causes the program to 
-dance and beep “Spooky Scary Skeletons” when it senses a nearby object. To 
-run, put your hand in front of the sensor. 
+BEEPING DANCER
+
+To run, put your hand in front of the sensor. The ultrasonic distance sensor causes the program to dance and beep “Spooky Scary Skeletons” when it senses a nearby object. The frame is a large piece of cardboard with the cardboard limbs and head stuck on the front. On the other side is a system of gears connected to the limbs and the motor that causes the limbs to swivel back and forth. 
+
  
 This robot was made by Vivi Wickersham and Maya Smith in their Autonomous Robotics class using the following links:
 https://en.wikipedia.org/wiki/Piano_key_frequencies
