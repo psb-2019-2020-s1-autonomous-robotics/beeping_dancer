@@ -14,4 +14,4 @@ We learned how to use threading and how to program the robot to play a song.
 ## What worked well
 The robot successfully used threading to both play a song and dance. The song sounded good.
 ## What we would do differently 
-We would delete the extra files on our brick, leaving only the one we intend to execute.
+We would delete the extra files on our brick, leaving only the one we intend to execute and check that the sensors work properly.
