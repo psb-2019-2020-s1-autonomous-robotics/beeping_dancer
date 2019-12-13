@@ -25,9 +25,8 @@ import threading
  
 #This defines the motor and sensor
 motorB = Motor(Port.B)
-sensor1 = UltrasonicSensor(Port.S1)
- 
- 
+sensor = UltrasonicSensor(Port.S2)
+
 #This tells the robot to play an A at 400.000 Hertz, a G at 381.995, and so on
 A = 440.000
 G = 381.995
@@ -77,7 +76,7 @@ d = threading.Thread(name='dance', target=dance)
  
 #This part actually runs the code if something is detected within half a meter.
 while True:
-   if sensor1.distance() < 500:
+   if sensor.distance() < 500:
        song_on = True
        dance_on = True
        d.start()
