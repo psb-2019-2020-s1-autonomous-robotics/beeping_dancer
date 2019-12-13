@@ -10,7 +10,7 @@ https://www.musicnotes.com/images/productimages/large/mtd/MN0168952.gif
 https://pymotw.com/3/threading/
 
 ## What we learned
-We learned how to use threading and how to program the robot to play a song. We also learned how to delete files from our brick and that it's important to check that connections between sensors and their ports have not failed.
+We learned how to use threading and how to program the robot to play a song. We also learned how to delete files from our brick and that it's important to check that connections between sensors and their ports have not failed in the code.
 ## What worked well
 The robot successfully used threading to both play a song and dance. The song sounded good and the dance looked good.
 ## What we would do differently 
